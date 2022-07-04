@@ -24,7 +24,9 @@ const About = () => {
   return (
     <>
       <h2 className='head-text'> 
-      Lets work together! Here's my <span>Resume</span>
+      Lets work together! Here's my <span>
+        <a href={images.resume} target='_blank' rel='noreferrer'>Resume</a>
+      </span>
       </h2>
 
       <div className='app__profiles'>
