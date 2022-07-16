@@ -24,6 +24,7 @@ import mcmaster from '../assets/mcmasterlogo.jpg'
 import summer from '../assets/summer.png'
 import resume from '../assets/resume.pdf'
 import catphoto from '../assets/catphoto.jpg'
+import blankit from '../assets/blankit.png'
 
 import about01 from '../assets/about01.png';
 import about02 from '../assets/about02.png';
@@ -71,6 +72,7 @@ export default {
   summer,
   resume,
   catphoto,
+  blankit,
   about01,
   about02,
   about03,
