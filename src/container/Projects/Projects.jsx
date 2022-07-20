@@ -16,7 +16,7 @@ const Projects = () => {
   const [filterProjects, setFilterProjects] = useState([]);
 
   useEffect(() => {
-    const query = '*[_type ==  "projects" ]'
+    const query = '*[_type ==  "projects"]'
     client.fetch(query)
     .then((data)=>{
       setProjects(data)

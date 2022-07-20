@@ -23,8 +23,9 @@ import roblox from '../assets/roblox.png'
 import mcmaster from '../assets/mcmasterlogo.jpg'
 import summer from '../assets/summer.png'
 import resume from '../assets/resume.pdf'
-import catphoto from '../assets/catphoto.jpg'
+import catphoto from '../assets/catphoto.JPG'
 import blankit from '../assets/blankit.png'
+import uber from '../assets/uber.pdf'
 
 import about01 from '../assets/about01.png';
 import about02 from '../assets/about02.png';
@@ -73,6 +74,7 @@ export default {
   resume,
   catphoto,
   blankit,
+  uber,
   about01,
   about02,
   about03,
