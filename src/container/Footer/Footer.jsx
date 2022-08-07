@@ -75,8 +75,14 @@ const Footer = () => {
         Thanks for contacting me!
     </div> }
 
+
     </div>
-   
+
+
+    <div className='copyright'>
+                <p className='p-text'>@2022 Raymond Ma</p>
+                <p className='p-text'>All rights reserved</p>
+            </div>
    </>
   )
 }
