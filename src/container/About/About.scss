@@ -6,6 +6,7 @@
 }
 
 .app__profiles{
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: flex-start;
@@ -36,7 +37,7 @@
     }
 
     @media screen and (min-width: 2000px) {
-        width: 130px;
+        width: 19%;
         margin: 2rem 4rem;
         
         img{

@@ -29,7 +29,8 @@ const About = () => {
       </span>
       </h2>
 
-      <div className='app__profiles'>
+      <motion.div className='app__profiles'
+      whileInView={{y:[20,0],opacity:[0,1]}}>
             {abouts.map((about, index) => (
               <motion.div
               whileInView={{opacity: 1}}
@@ -48,7 +49,7 @@ const About = () => {
 
               </motion.div>
             ))}
-      </div>
+      </motion.div>
     </>
   );
 }

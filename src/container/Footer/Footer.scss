@@ -65,12 +65,13 @@
     flex-direction: column;
     margin: 1rem 2rem;
 
-    div{
+    div, form{
         width: 100%;
-        margin: 0.75rem 0;
+        margin: 1rem 0;
         border-radius: 10px;
         cursor: pointer;
-        background-color: var(--white-color);
+        align-items: center;
+        flex-direction: column;
 
         transition: all 0.3s ease-in-out;
         input , textarea {
@@ -83,14 +84,15 @@
             font-family: var(--font-base);
             color: var(--secondary-color);
             outline: none;
+            &:hover {
+                box-shadow: 0 0 25px rgba(0,0,0,0.15);
+            }
         }
 
         textarea {
             height: 170px;
         }
-        &:hover {
-            box-shadow: 0 0 25px rgba(0,0,0,0.15);
-        }
+        
     }
 
     button {
