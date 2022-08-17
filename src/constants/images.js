@@ -27,6 +27,7 @@ import catphoto from '../assets/catphoto.JPG'
 import blankit from '../assets/blankit.png'
 import uber from '../assets/uber.pdf'
 import uberphoto from '../assets/uberphoto.png'
+import azure from '../assets/azure.png'
 
 import about01 from '../assets/about01.png';
 import about02 from '../assets/about02.png';
@@ -77,6 +78,7 @@ export default {
   blankit,
   uber,
   uberphoto,
+  azure,
   about01,
   about02,
   about03,
