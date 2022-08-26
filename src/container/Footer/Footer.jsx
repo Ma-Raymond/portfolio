@@ -5,6 +5,7 @@ import {images} from '../../constants';
 import { AppWrap } from '../../wrapper';
 import {client} from '../../client';
 import emailjs from "emailjs-com";
+import { BsLinkedin } from 'react-icons/bs'
 
 
 const Footer = () => {
@@ -61,9 +62,9 @@ const Footer = () => {
 
 
 
+<h2 className='head-text'>Let's have a coffee chat ☕</h2>
 
-   <h2 className='head-text'>Let's have a coffee chat ☕</h2>
-   <div className='app__footer-cards'>
+<div className='app__footer-cards'>
     <div className='app__footer-card'>
       <img src={images.email} alt='email'/>
       <a href='mailto:raymond.ma003@gmail.com' className='p-text'>
@@ -71,6 +72,15 @@ const Footer = () => {
       </a>
     </div>
 
+    <a href="https://www.linkedin.com/in/ma-raymond/"  target='_blank' rel='noreferrer'>
+    <div className='app__footer-card'>
+      <img src={images.linkedin} alt='email'/>
+      <a className='p-text'>
+          LinkedIn Profile
+      </a>
+    </div>
+    </a>
+    </div>
     {!isFormSubmitted ?
       <div className='app__footer-form app__flex'>
         <form ref={form} onSubmit={sendEmail} className='app__flex'>
@@ -87,18 +97,21 @@ const Footer = () => {
         </form>
       </div>
 
+
     : <div className='head-text'>
         Thanks for contacting me!
     </div> }
 
+   
 
-    </div>
+
+    
 
 
-    <div className='copyright'>
+    {/* <div className='copyright'>
                 <p className='p-text'>@2022 Raymond Ma</p>
                 <p className='p-text'>All rights reserved</p>
-            </div>
+    </div> */}
    </>
   )
 }

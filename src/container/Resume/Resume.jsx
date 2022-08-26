@@ -10,14 +10,18 @@ import './Resume.scss';
 
 const Resume = () => {
     return (
-        <h2 className='head-text'> 
-        <div className='resume'>
-            Lets work together! Here's my <span>
-            <a href={images.resume} target='_blank' rel='noreferrer'>Resume!</a>
-        </span>
-        </div>
+    //     <h2 className='head-text'> 
+    //     <div className='resume'>
+    //         Lets work together! Here's my <span>
+    //         <a href={images.resume} target='_blank' rel='noreferrer'>Resume!</a>
+    //     </span>
+    //     </div>
       
-      </h2>
+    //   </h2>
+    <div className='copyright'>
+                <p className='p-text'>@2022 Raymond Ma</p>
+                <p className='p-text'>All rights reserved</p>
+    </div>
     )
 }
 
