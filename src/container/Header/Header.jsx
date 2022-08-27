@@ -34,11 +34,19 @@ const Header = () => {
                 <h2 className='head-text'>Raymond Ma</h2>
               </div>
             </div>
-
             <div className='tag-cmp app_flex'>
-                <p className='p-text'>Software Engineering Student</p>
+                <p className='p-text'>Seeking 2023 Summer Internships</p>
                 <p className='head-text'></p>
             </div>
+            <div className='tag-cmp app_flex'>
+                <p className='p-text'>I'm a Software Engineering student at McMaster University passionate 
+          about software development and excited to learn new technologies and hopes build
+            impactful solutions!</p>
+                <p className='head-text'></p>
+            </div>
+
+            
+
         </div>
       </motion.div>
 
