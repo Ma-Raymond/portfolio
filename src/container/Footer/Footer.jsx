@@ -62,7 +62,11 @@ const Footer = () => {
 
 
 
+<div className='app__coffee'>
 <h2 className='head-text'>Let's have a coffee chat ☕</h2>
+
+
+</div>
 
 <div className='app__footer-cards'>
     <div className='app__footer-card'>

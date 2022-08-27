@@ -35,12 +35,24 @@ const About = () => {
       
 
       <motion.div className='app__profiles'
-      whileInView={{y:[20,0],opacity:[0,1]}}>
+      // whileInView={{y:[20,0],opacity:[0,1]}}
+        initial="hidden"
+        whileInView="visible"
+        viewport={{ once: true }}
+        transition={{duration: 1.5, type:'tween'}}
+        variants={{
+          visible: { opacity: 1, y: 0},
+          hidden: { opacity: 0, y: 20}
+        }}
+      >
             {abouts.map((about, index) => (
               <motion.div
-              whileInView={{opacity: 1}}
+
+              
+              // whileInView={{opacity: 1}}
               whileHover={{scale: 1.1}}
               transition={{duration: 0.6, type:'tween'}}
+              
               className='app__profile-item'
               key={about.title + index}
               >

@@ -22,6 +22,14 @@ const Header = () => {
     <div className='app__header app__flex'>
       
       <motion.div
+      initial="hidden"
+      whileInView="visible"
+      viewport={{ once: true }}
+      transition={{duration: 1, type:'tween'}}
+      variants={{
+        visible: { opacity: 1, x: 0},
+        hidden: { opacity: 0, x: -100}
+      }}
       whileInView={{ x:[-100,0], opacity: [0,1]}}
       transistion={{ duration: 1}}
       className='app__header-info'
