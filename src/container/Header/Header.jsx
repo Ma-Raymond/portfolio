@@ -30,8 +30,7 @@ const Header = () => {
         visible: { opacity: 1, x: 0},
         hidden: { opacity: 0, x: -100}
       }}
-      whileInView={{ x:[-100,0], opacity: [0,1]}}
-      transistion={{ duration: 1}}
+      
       className='app__header-info'
       >
         <div className='app__header-badge'>
@@ -59,8 +58,14 @@ const Header = () => {
       </motion.div>
 
       <motion.div
-        whileInView={{ opacity: [0,1]}}
-        transistion={{ duration: 1, delayChildren: 0.5}}
+        initial="hidden"
+        whileInView="visible"
+        viewport={{ once: true }}
+        transition={{duration: 1, type:'tween'}}
+        variants={{
+          visible: { opacity: 1, x: 0},
+          hidden: { opacity: 0, x: -100}
+        }}
         className='app__header-img'
       >
         <img src={images.profilepicture} alt='profile_bg' className='profile_pic'/>
