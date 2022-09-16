@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.b758759c.css",
-    "main.js": "/static/js/main.0d1aa594.js",
+    "main.js": "/static/js/main.864916a4.js",
     "static/media/profilepicture.jpg": "/static/media/profilepicture.0374cc5420ce7f1e6850.jpg",
     "static/media/uber.pdf": "/static/media/uber.0c418c19ec08ebfcd939.pdf",
     "static/media/about04.png": "/static/media/about04.fa7b3a72ed32b0e25bfb.png",
@@ -40,10 +40,10 @@
     "index.html": "/index.html",
     "static/media/circle.svg": "/static/media/circle.134eeeb1e58895b892195fe8ed63bc9f.svg",
     "main.b758759c.css.map": "/static/css/main.b758759c.css.map",
-    "main.0d1aa594.js.map": "/static/js/main.0d1aa594.js.map"
+    "main.864916a4.js.map": "/static/js/main.864916a4.js.map"
   },
   "entrypoints": [
     "static/css/main.b758759c.css",
-    "static/js/main.0d1aa594.js"
+    "static/js/main.864916a4.js"
   ]
 }
