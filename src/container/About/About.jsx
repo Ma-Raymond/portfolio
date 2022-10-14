@@ -27,7 +27,7 @@ const About = () => {
     
       <h2 className='head-text'> 
       Lets work together! Here's my <span>
-        <a href={images.resume} target='_blank' rel='noreferrer'>Resume</a>
+        <a href={images.frcrobot} target='_blank' rel='noreferrer'>Resume</a>
       </span>
       </h2>
 
