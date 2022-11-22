@@ -30,6 +30,7 @@ import uberphoto from '../assets/uberphoto.png'
 import azure from '../assets/azure.png'
 import linkedin from '../assets/linkedin.png'
 import frcrobot from '../assets/FRCRobot.pdf'
+import design from '../assets/Design.pdf'
 
 import about01 from '../assets/about01.png';
 import about02 from '../assets/about02.png';
@@ -83,6 +84,7 @@ export default {
   azure,
   linkedin,
   frcrobot,
+  design,
   about01,
   about02,
   about03,
