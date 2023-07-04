@@ -42,13 +42,12 @@ const Header = () => {
               </div>
             </div>
             <div className='tag-cmp app_flex'>
-                <p className='p-text'>Seeking 2023 Summer Internships</p>
+                <p className='p-text'>Engineering Intern @ Cohere</p>
                 <p className='head-text'></p>
             </div>
             <div className='tag-cmp app_flex'>
                 <p className='p-text'>I'm a Software Engineering student at McMaster University passionate 
-          about software development and excited to learn new technologies and hopes build
-            impactful solutions!</p>
+          about software development/machine learning! Currently Seeking Fall 2023/Summer 2024 Internships</p>
                 <p className='head-text'></p>
             </div>
 
@@ -83,7 +82,7 @@ const Header = () => {
         whileInView= {scaleVariants.whileInView}
         className='app__header-circles'
       >
-        {[images.azure, images.python, images.react].map((circle, index)=> (
+        {[images.python, images.cohere, images.azure].map((circle, index)=> (
           <div className='circle-cmp app__flex' key={`circle-${index}`}>
             <img src={circle} alt='circle'/>
           </div>

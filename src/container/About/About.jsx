@@ -23,7 +23,7 @@ const About = () => {
   
   return (
     <>
-
+    <div className='app__about app__flex'>
     
       <h2 className='head-text'> 
       Lets work together! Here's my <span>
@@ -67,6 +67,7 @@ const About = () => {
               </motion.div>
             ))}
       </motion.div>
+      </div>
     </>
   );
 }

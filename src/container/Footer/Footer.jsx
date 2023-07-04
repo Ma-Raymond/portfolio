@@ -59,7 +59,7 @@ const Footer = () => {
 
   return (
    <>
-
+    <div className='app__footer app__flex'>
 
 
 <div className='app__coffee'>
@@ -116,6 +116,7 @@ const Footer = () => {
                 <p className='p-text'>@2022 Raymond Ma</p>
                 <p className='p-text'>All rights reserved</p>
     </div> */}
+        </div>
    </>
   )
 }
