@@ -14,7 +14,7 @@ const Skills = () => {
             <div className='p-text'>
                   Python
                   <br/>
-                  Java
+                  Java!
                   <br/>
                   Javascript
             </div>
