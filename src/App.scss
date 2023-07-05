@@ -32,7 +32,7 @@
     flex-direction: column;
   
     @media screen and (max-width: 450px) {
-      padding: 4rem 1rem 2rem;
+      padding: 4rem 0rem 2rem;
     }
   }
   
@@ -153,7 +153,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-  
+    z-index: 1;
     padding: 1rem;
   
     .app__navigation-dot {
