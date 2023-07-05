@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.d90fe853.css",
+    "main.css": "/static/css/main.a49dda88.css",
     "main.js": "/static/js/main.e9f07890.js",
     "static/media/Design.pdf": "/static/media/Design.9dcf2e6c7c29e9e2c1b9.pdf",
     "static/media/FRCRobot.pdf": "/static/media/FRCRobot.90f7307f53195d83698a.pdf",
@@ -41,11 +41,11 @@
     "static/media/skype.png": "/static/media/skype.c8d7ee175da5b4c8a8ab.png",
     "index.html": "/index.html",
     "static/media/circle.svg": "/static/media/circle.134eeeb1e58895b892195fe8ed63bc9f.svg",
-    "main.d90fe853.css.map": "/static/css/main.d90fe853.css.map",
+    "main.a49dda88.css.map": "/static/css/main.a49dda88.css.map",
     "main.e9f07890.js.map": "/static/js/main.e9f07890.js.map"
   },
   "entrypoints": [
-    "static/css/main.d90fe853.css",
+    "static/css/main.a49dda88.css",
     "static/js/main.e9f07890.js"
   ]
 }
